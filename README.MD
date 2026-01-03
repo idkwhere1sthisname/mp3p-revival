@@ -1,8 +1,8 @@
 # mp3p-revival
 
-Revival server for the Metroid Prime 3 Preview channel.
-
 <div align="center">
+Revival server for the Metroid Prime 3 Preview channel.
+<br><br>
 <img src="https://img.idkwh.ct8.pl/mp3p-revival/1.png" width="311" height="299" alt="image" />
 </div>
 
@@ -13,6 +13,8 @@ A hosted WAD is available below:
 - [European Version](https://img.idkwh.ct8.pl/mp3p-revival/wad/Metroid%20Prime%203%20Revival%20%28Europe%29%20%28Revival%29.wad) (might not have every video in every language)
 
 - [American Version](https://img.idkwh.ct8.pl/mp3p-revival/wad/Metroid%20Prime%203%20Revival%20%28USA%29%20%28Revival%29.wad)
+
+<small>All videos used are from YouTube</small>
 
 ## Self hosting
 

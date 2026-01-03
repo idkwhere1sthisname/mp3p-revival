@@ -25,11 +25,13 @@ def videos_USA():
 #offsets (USA)
 #FUN_80024fa4 #logging
 
+@app.route("/<string:region>/<string:num>.3gp",defaults={"lang":None})
 @app.route("/<string:region>/<string:lang>/<string:num>.3gp")
 def servevid(region,lang,num):
-    vid = f"{region}/{lang}/{num}.3gp"
-    if lang == None:
+    if region == "us":
         vid = f"{region}/{num}.3gp"
+    else:
+        vid = f"{region}/{lang}/{num}.3gp"
 
     return send_from_directory("videos",vid)
 
