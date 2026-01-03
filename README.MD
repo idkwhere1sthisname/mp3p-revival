@@ -32,7 +32,7 @@ py server.py
 
 ## WAD Patching
 
-1. _Legally_ dump your own copy of the Metroid Prime 3 Preview channel
+1. _Legally dump_ your own copy of the Metroid Prime 3 Preview channel
 2. Unpack the WAD using WADMii or ShowMiiWADs
 3. Unpack `00000002.app` using U8Mii or ShowMiiWADs
 4. Decompress the DOL (`00000001.app`) using [wwcxtool](https://repo.mariocube.com/Wii/PC%20Applications/WAD%20Tools/wwcxtool.zip)
