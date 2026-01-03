@@ -46,7 +46,7 @@ py server.py
 
 ## Adding custom videos
 
-The channel simply uses .mp4 in a .3gp container, with a max resolution of 240p (15fps), to encode videos correctly, you need [ffmpeg](https://ffmpeg.org/).
+The channel simply uses .mp4 in a .3gp container, with a max resolution of 240p (max. tested: 15fps), to encode videos correctly, you need [ffmpeg](https://ffmpeg.org/).
 
 Encode a video to a supported .mp4
 
