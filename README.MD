@@ -70,3 +70,6 @@ Then place the final 3gp to `/videos/`, you might need to rename the file to wha
 
 2. Sometimes, the channel crashes with the death sound
     - Unfortunately, the channel is a browser (Opera) app, and it might sometimes crash.
+
+3. I get -1020 when installing the American WAD
+    - The previous WAD had a ticket issue, please try redownloading it, as it should be fixed now.
