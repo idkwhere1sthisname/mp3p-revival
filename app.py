@@ -22,4 +22,4 @@ def servevid(region,lang,num):
     return send_from_directory("videos",vid)
 
 if __name__ == "__main__":
-    app.run("127.0.0.1",80,True)
+    app.run("0.0.0.0",80,True)
