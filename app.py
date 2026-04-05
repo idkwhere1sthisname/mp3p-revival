@@ -1,5 +1,6 @@
 from __future__ import print_function
 from flask import Flask,send_from_directory
+from werkzeug.serving import WSGIRequestHandler
 
 app = Flask(__name__)
 
@@ -22,4 +23,5 @@ def servevid(region,lang,num):
     return send_from_directory("videos",vid)
 
 if __name__ == "__main__":
+    WSGIRequestHandler.protocol_version = "HTTP/1.1"
     app.run("0.0.0.0",80,True)
