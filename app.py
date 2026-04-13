@@ -33,7 +33,6 @@ def servevid(region,lang,num):
         vid = f"{region}/{lang}/{num}.3gp"
     finalvid = os.path.join(VIDEOS,vid)
     if not os.path.exists(finalvid):
-        print(finalvid)
         abort(404)
     return send_file(finalvid),200
 
