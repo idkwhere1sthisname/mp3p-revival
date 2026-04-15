@@ -3,8 +3,7 @@
 <div align="center">
 Revival server for the Metroid Prime 3 Preview channel.
 <br><br>
-<img src="https://img.idkwh.ct8.pl/mp3p-revival/1.png" width="320" height="240" alt="Image 1" />
-<img src="https://img.idkwh.ct8.pl/mp3p-revival/2.png" width="320" height="240" alt="Image 2" />
+<img src="https://img.idkwh.ct8.pl/mp3p-revival/1.png" width="320" height="240" alt="Image 1" /> <img src="https://img.idkwh.ct8.pl/mp3p-revival/2.png" width="320" height="240" alt="Image 2" />
 </div>
 
 ## Prepatched WAD
