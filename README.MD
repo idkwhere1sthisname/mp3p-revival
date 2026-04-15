@@ -4,7 +4,7 @@
 Revival server for the Metroid Prime 3 Preview channel.
 <br><br>
 <table align="center">
-  <tr><th colspan="1">Images</th></tr>
+  <tr><th colspan="2">Images</th></tr>
   <tr><td><img src="https://img.idkwh.ct8.pl/mp3p-revival/1.png" width="320" height="240"></td><td><img src="https://img.idkwh.ct8.pl/mp3p-revival/2.png" width="320" height="240"></td>
   </tr>
 </table>
