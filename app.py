@@ -9,12 +9,17 @@ CONFIG = os.path.join(os.path.dirname(__name__),"config.xml")
 CONFIGXML = "config.xml"
 app = Flask("mp3p-revival",static_folder=STATIC)
 
-@app.route("/eu/videos.txt")
-def videos_EUR():
-    return send_from_directory(STATIC,"EU_videos.txt"),200,{"Content-Type":"text/plain; charset=UTF-8"}
-@app.route("/us/videos.txt")
-def videos_USA():
-    return send_from_directory(STATIC,"US_videos.txt"),200,{"Content-Type":"text/plain; charset=UTF-8"}
+@app.route("/<string:region>/videos.txt")
+def videos_EUR(region):
+    regionarr = ["us","eu"]
+    region = str(region)
+    if region not in regionarr:
+        abort(400)
+    f = region.upper()+"_videos.txt"
+    path = os.path.join(STATIC,f)
+    if not os.path.exists(path):
+        return abort(404)
+    return send_from_directory(STATIC,f),200,{"Content-Type":"text/plain; charset=UTF-8"}
 
 @app.route("/<string:region>/<string:num>.3gp",defaults={"lang":None})
 @app.route("/<string:region>/<string:lang>/<string:num>.3gp")
