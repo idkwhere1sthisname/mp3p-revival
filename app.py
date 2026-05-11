@@ -5,7 +5,7 @@ import os
 import xml.etree.ElementTree as ET
 STATIC = os.path.join(os.path.dirname(__file__),"static")
 VIDEOS = os.path.join(os.path.dirname(__file__),"videos")
-CONFIG = os.path.join(os.path.dirname(__name__),"config.xml")
+CONFIG = os.path.join(os.path.dirname(__file__),"config.xml")
 CONFIGXML = "config.xml"
 app = Flask("mp3p-revival",static_folder=STATIC)
 
