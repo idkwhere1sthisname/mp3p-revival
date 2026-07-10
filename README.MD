@@ -44,7 +44,7 @@ py server.py
     - The URL in the European WAD is located at offset `0x223E10`
     - The URL in the American WAD is located at offset `0x223928`
     - Optionally, recompress the DOL using wwcxtool.
-6. Open `html.arc` found in `00000002.app`, modify the first line of `video.js` to your custom URL, then repack the U8 archive. ([CTools's SZS Explorer](https://www.chadsoft.co.uk/wiicoder/) is recommended)
+6. Open `html.arc` found in `00000002.app`, modify the first line of `video.js` to your custom URL, then repack the U8 archive. ([Wiimm's SZS Tools](https://szs.wiimm.de/wszst/) is recommended)
 7. Repack the WAD
 8. If done correctly, it should be pointing to your custom `videos.txt`.
 
