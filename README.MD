@@ -14,9 +14,7 @@ Revival server for the Metroid Prime 3 Preview channel.
 
 A hosted WAD is available below:
 
-- [European Version](https://img.idkwh.ct8.pl/mp3p-revival/wad/Metroid%20Prime%203%20Preview%20Channel%20%28Europe%29%20%28Revival%29.wad) (might not have every video in every language)
-
-- [American Version](https://img.idkwh.ct8.pl/mp3p-revival/wad/Metroid%20Prime%203%20Preview%20Channel%20%28USA%29%20%28Revival%29.wad)
+You can download my WAD patcher from [here](https://github.com/idkwhere1sthisname/revival-patcher)
 
 <small>All videos used are from YouTube</small>
 
