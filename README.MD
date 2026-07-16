@@ -10,9 +10,7 @@ Revival server for the Metroid Prime 3 Preview channel.
 </table>
 </div>
 
-## Prepatched WAD
-
-A hosted WAD is available below:
+## Patching the WAD
 
 You can download my WAD patcher from [here](https://github.com/idkwhere1sthisname/revival-patcher)
 
